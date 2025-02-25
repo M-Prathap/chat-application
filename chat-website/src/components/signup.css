@@ -1,0 +1,66 @@
+/* Background */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+/* Signup Box */
+.signupBox {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 400px;
+  position: relative;
+}
+
+/* Chat Logo */
+.logo {
+  width: 30px;
+  margin-bottom: 10px;
+}
+
+/* Title */
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 20px;
+}
+
+/* Input Fields */
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 150px;
+}
+
+input {
+ 
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+}
+
+/* Button */
+button {
+  background-color: #5a6e8a;
+  color: white;
+  border: none;
+  padding: 12px;
+  margin-top: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #4b5e7a;
+}
